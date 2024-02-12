@@ -137,6 +137,17 @@
                 {%- endif -%}
               </div>
       </div>
+      {%- elsif include.display == 'inline' -%}
+              <div class="cell cell--12 cell--md-6 cell--lg-4 gird2 checking part2">
+                <div class="card card--flat">
+                  <a href="{{ _article_url }}">
+                    <div class="card card--inline">
+                      <!-- <div class="card__image"><img src="{{ _article_cover }}" /> {{ _article.title }}</div> -->
+                      <div>{{ _article.title }}</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
       {%- else -%}
 
       <div class="cell cell--12 cell--md-6 cell--lg-4">

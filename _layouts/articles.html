@@ -39,6 +39,8 @@ layout: page
     {%- if _type == 'grid' -%}
       {%- if page.articles.size == 'sm' -%}
         {%- include article-list.html articles=_articles type='grid' size='sm' -%}
+      {%- elsif page.articles.display == 'inline' -%}
+        {%- include article-list.html articles=_articles type='grid' display='inline' -%}
       {%- else -%}
         {%- include article-list.html articles=_articles type='grid' -%}
       {%- endif -%}

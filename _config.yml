@@ -202,6 +202,8 @@ collections:
     output: true
   contribute:
     output: true
+  pythontoolbox:
+    output: true
 
 defaults:
   - 
@@ -254,5 +256,11 @@ defaults:
     scope:
       path: ""
       type: "contribute"
+    values:
+      layout: "article"
+  -
+    scope:
+      path: ""
+      type: "pythontoolbox"
     values:
       layout: "article"
