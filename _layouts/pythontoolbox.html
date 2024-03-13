@@ -1,0 +1,34 @@
+---
+layout: page
+---
+<div> this is pythontoolbox.html</div>
+
+{% for product in page.articles.data_source.site.pythontoolbox.data.categories %}
+<span>{{ product.title}}:</span>
+<ul>
+    {% for item in product.packages %}
+    <li>Title: {{ item.title }}</li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
+
+{% for product in page.articles.data_source.data.categories %}
+<span>{{ product.title}}:</span>
+<ul>
+    {% for item in product.packages %}
+    <li>Title2: {{ item.title }}</li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
+
+
+{% for product in page.articles.data_source.categories %}
+<span>{{ product.title}}:</span>
+<ul>
+    {% for item in product.packages %}
+    <li>Title3: {{ item.title }}</li>
+    {% endfor %}
+</ul>
+{% endfor %}

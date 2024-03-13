@@ -1,0 +1,56 @@
+{
+    "categories" : [
+        {
+            "title":"Authorization",
+            "packageNames":["authlib, oauthlib, python-oauth2, pyjwt, python-jwt"],
+            "packages": [
+                {
+                    "title": "authlib",
+                    "description": "authlib - JavaScript Object Signing and Encryption draft implementation."
+                },
+                {
+                    "title": "oauthlib",
+                    "description": "django-allauth - Authentication app for Django that just works."
+                },
+                {
+                    "title": "python-oauth2",
+                    "description": "python-oauth2 - A fully tested, abstract interface to creating OAuth clients and servers."
+                },
+                {
+                    "title": "pyjwt",
+                    "description": "pyjwt - JSON Web Token implementation in Python."
+                },
+                {
+                    "title": "python-jwt",
+                    "description": "python-jwt - A module for generating and verifying JSON Web Tokens."
+                }
+            ]
+        },
+        {
+            "title":"Authentcation",
+            "packageNames":["authlib2, oauthlib2, python-oauth22, pyjwt2, python-jwt2"],
+            "packages": [
+                {
+                    "title": "authlib2",
+                    "description": "authlib2 - JavaScript Object Signing and Encryption draft implementation."
+                },
+                {
+                    "title": "oauthlib2",
+                    "description": "django-allauth2 - Authentication app for Django that just works."
+                },
+                {
+                    "title": "python-oauth22",
+                    "description": "python-oauth22 - A fully tested, abstract interface to creating OAuth clients and servers."
+                },
+                {
+                    "title": "pyjwt2",
+                    "description": "pyjwt2 - JSON Web Token implementation in Python."
+                },
+                {
+                    "title": "python-jwt2",
+                    "description": "python-jwt2 - A module for generating and verifying JSON Web Tokens."
+                }
+            ]
+        }
+    ]
+}
